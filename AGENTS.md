@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to coding agents (Claude Code, Codex CLI, Antigravity CLI) when working with code in this repository.
 
 ## Project Overview
 
@@ -99,7 +99,7 @@ This includes:
 
 **Exceptions** (French allowed):
 - `./jose/` - Personal notes and prompts
-- `CLAUDE.md` - Personal instructions file
+- `AGENTS.md` - Agent instructions file (the only one: `CLAUDE.md` and `GEMINI.md` must not exist, a project `CLAUDE.md` hides `AGENTS.md` from Claude Code)
 
 ## Development Guidelines
 
@@ -139,4 +139,3 @@ The following are ignored and should not be committed:
 - `**/*_export*.json` - Export JSON files
 - `**/Preferences.json`, `**/Local_State.json` - Raw browser data
 - `jose/` - Personal notes
-- `CLAUDE.md` - Personal instructions
