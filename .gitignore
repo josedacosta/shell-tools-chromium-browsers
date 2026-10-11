@@ -52,4 +52,3 @@ browser_traces_*.txt
 # Personal Files (includes local scripts in jose/scripts/)
 # =============================================================================
 jose/
-CLAUDE.md
